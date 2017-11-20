@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WebView Local</string>
+
+    <string name="admob_test">C5C56B609D8A5F279EDE5FF5D59DDAAB</string>
+    <string name="admob_test_2">978B3C0AAA304858746159E149A9F5D8</string>
+
+    <string name="DialogoSair">Sair?</string>
+    <string name="DialogoSim">Sim</string>
+    <string name="DialogoNao">Não</string>
+
+    <string name="admob_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_inter">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="SplashName">Splash</string>
+</resources>

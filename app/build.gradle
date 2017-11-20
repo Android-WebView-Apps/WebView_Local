@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.webview.local"
+        minSdkVersion 14 //atenção para utilizar a mesma minSdk do projeto anterior
+        targetSdkVersion 26
+        versionCode 1 //atenção para dar seguimento no versionCode do projeto anterior
+        versionName "1.0" //atenção para dar seguimento no versionName do projeto anterior
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    compile 'com.github.codechimp-org.apprater:library:1.0.34' //biblioteca do apprater
+}
